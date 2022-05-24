@@ -1,0 +1,17 @@
+html {
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 2px;
+}
+
+body {
+	background-color: #252c33;
+}
+
+#hero {
+	padding-top: 2rem;
+	background-color: #252c33;
+}
+
+footer {
+	background-color: #252c33;
+}
