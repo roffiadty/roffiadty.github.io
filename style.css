@@ -15,3 +15,11 @@ body {
 footer {
 	background-color: #252c33;
 }
+
+.tombol-hover{
+	text-decoration: none;
+}
+
+.tombol-hover:hover {
+	text-decoration: underline;
+}
