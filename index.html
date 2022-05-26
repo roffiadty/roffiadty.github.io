@@ -199,7 +199,7 @@
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>
 		  AOS.init({
-			once: false,
+			once: true,
 		  });
 		</script>
 
@@ -210,7 +210,7 @@
 		<script>
 			// kalo mau nambah plugin tinggal tambah koma'nama pluginnya' diregisterPluginnya
 			gsap.registerPlugin(TextPlugin);
-			gsap.to('.lead' , {duration: 2.5, delay: 3.5, text: "Job | Description"})
+			gsap.to('.lead' , {duration: 2, delay: 4, text: "Job | Description"})
 			gsap.from('.navbar' , {duration: 1, ease: 'bounce.out', y: '-100%', opacity: 0})
 			gsap.from('#hero img' , {duration: 1, delay: 1.5, rotateY: 360, opacity: 0})
 			gsap.from('.display-4' , {duration: 1.5, y: -50, opacity: 0, delay: 2.5, ease: 'back.out'})
