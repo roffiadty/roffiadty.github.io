@@ -23,3 +23,7 @@ footer {
 .tombol-hover:hover {
 	text-decoration: underline;
 }
+
+.picture-projects {
+	height: 220px;
+}
