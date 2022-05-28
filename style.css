@@ -16,7 +16,7 @@ footer {
 	background-color: #252c33;
 }
 
-.tombol-hover{
+.tombol-hover {
 	text-decoration: none;
 }
 
@@ -26,4 +26,38 @@ footer {
 
 .picture-projects {
 	height: 220px;
+}
+
+.bold {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.glow {
+	color: #fff;
+	text-shadow: 0 0 4px #fff, 0 0 7px #fff, 0 0 11px #fff, 0 0 15px #0fa, 0 0 19px #0fa, 0 0 23px #0fa, 0 0 27px #0fa, 0 0 33px #0fa;
+}
+.glowing {
+	/* font-family: 'Vibur', cursive; */
+	/* font-size: 25px; */
+	animation: flicker 1.5s infinite alternate;
+	color: #fff;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+	0%,
+	18%,
+	22%,
+	25%,
+	53%,
+	57%,
+	100% {
+		text-shadow: 0 0 4px #fff, 0 0 7px #fff, 0 0 11px #fff, 0 0 15px #0fa, 0 0 19px #0fa, 0 0 23px #0fa, 0 0 27px #0fa, 0 0 25px #0fa;
+	}
+	20%,
+	24%,
+	55% {
+		text-shadow: none;
+	}
 }
